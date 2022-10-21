@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+
+.size-list {
+gap: 50px;
+padding: 0;
+}
+
+.size-item {
+  width: 125px;
+  height: 125px;
+  padding: 40px ;
+  padding-top: 45px;
+  padding-left: 35px;
+  list-style-type: none;
+  font-size: 20px;
+  font-weight: 700;
+  border: 2px solid #000;
+  border-radius: 50%;
+  
+}
