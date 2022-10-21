@@ -17,110 +17,132 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="./style.css" />
-    <title>Lesson-12</title>
+    <title>EXAM-3</title>
   </head>
+
   <body>
-    <div class="container">
-      <div class="row">
-        <h1 class="text-center my-5">Pitsa buyurtma qilish</h1>
-
-        <div class="col-8">
-          <div class="wrapper col-4">
-            <select class="form-select mb-5">
-              Noni qanday bo'lsin?
-              <option>Yupqa</option>
-              <option>Qalin</option>
-            </select>
+    <header>
+      <nav class="shadow">
+        <div class="modal d-none">
+          <div class="modals">
+            <h2 class="modal-title">Danger</h2>
           </div>
-
-          <h3>Kattaligi</h3>
-          <ul class="size-list d-flex mt-3">
-            <li class="size-item">25sm</li>
-            <li class="size-item">30sm</li>
-            <li class="size-item">35sm</li>
-          </ul>
-
-          <h4>Ustiga nima solaylik?</h4>
-          <div>
-            <div class="form-check">
-              <input
-                class="form-check-input"
-                type="checkbox"
-                id="Check-Default"
-              />
-              <label class="form-check-label" for="Check-Default">
-                Pomidor
-              </label>
-            </div>
-            <div class="form-check">
-              <input
-                class="form-check-input"
-                type="checkbox"
-                id="Check-Default"
-              />
-              <label class="form-check-label" for="Check-Default">
-                Kurka go'shti
-              </label>
-            </div>
-            <div class="form-check">
-              <input
-                class="form-check-input"
-                type="checkbox"
-                id="Check-Default"
-              />
-              <label class="form-check-label" for="Check-Default">
-                Zaytun
-              </label>
-            </div>
-          </div>
-
-          <div>
-            <div class="form-check">
-              <input
-                class="form-check-input"
-                type="checkbox"
-                id="Check-Default"
-              />
-              <label class="form-check-label" for="Check-Default">
-                Tuzlangan bodring
-              </label>
-            </div>
-            <div class="form-check">
-              <input
-                class="form-check-input"
-                type="checkbox"
-                id="Check-Default"
-              />
-              <label class="form-check-label" for="Check-Default">
-                Qo'ziqorin
-              </label>
-            </div>
-            <div class="form-check">
-              <input
-                class="form-check-input"
-                type="checkbox"
-                id="Check-Default"
-              />
-              <label class="form-check-label" for="Check-Default"> Qazi </label>
-            </div>
-          </div>
-
-          <!-- <div class="form-check">
-          <input
-          class="form-check-input"
-          type="checkbox"
-          value=""
-          id="Check-Checked"
-          checked
-          />
-          <label class="form-check-label" for="Check-Checked">
-            Checked checkbox
-          </label> -->
-          <!-- </div> -->
-          <div class="col-4 border-start border-dark">afeef</div>
         </div>
-      </div>
-    </div>
+        <div class="container">
+            <h1 class="nav-title">Pitsa buyurtma qilish</h1>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!--============================= MAIN ==================================-->
+    <main>
+      <section class="hero-site">
+        <div class="container">
+          <div class="hero">
+            <div class="hero-left">
+              <div class="pitza-type">
+                <label class="non" for="type">Noni qanday bo'lsin?</label>
+                <select required class="form-select w-50 my-4" id="select">
+                  <option hidden value="defualt" selected disabled>
+                    Non turlari
+                  </option>
+                  <option value="yupqa">Yupqa</option>
+                  <option value="qalin">Qalin</option>
+                </select>
+              </div>
+              <div class="pitza-width">
+                <h2 class="pitza-width-title">Kattaligi</h2>
+                <div class="wrapper">
+                  <div class="wrapper-item bg-white">25 sm</div>
+                  <div class="wrapper-item bg-white">30 sm</div>
+                  <div class="wrapper-item bg-white">35 sm</div>
+                </div>
+              </div>
+              <div class="check-box">
+                <h2 class="check-box-title">Ustiga nima solaylik?</h2>
+                <div class="checkbox">
+                  <ul class="check-list-1">
+                    <li class="check-item">
+                      <input
+                        value="Kurki gosht"
+                        class="checkboxs"
+                        type="checkbox"
+                      />
+                      <label for="gosht"> Pomidor </label>
+                    </li>
+                    <li class="check-item">
+                      <input value="Zaytun" type="checkbox" class="checkboxs" />
+                      <label for="zaytun"> Kurka go'shti </label>
+                    </li>
+                    <li class="check-item">
+                      <input
+                        value="Pomidor"
+                        type="checkbox"
+                        class="checkboxs"
+                      />
+                      <label for="pomidor"> Zaytun </label>
+                    </li>
+                  </ul>
+                  <ul class="check-list-2">
+                    <li class="check-item">
+                      <input
+                        value="Tuzlangan bodiring"
+                        type="checkbox"
+                        class="checkboxs"
+                      />
+                      <label for="gosht"> Tuzlangan bodiring </label>
+                    </li>
+                    <li class="check-item">
+                      <input
+                        value=" Qoziqorin"
+                        type="checkbox"
+                        class="checkboxs"
+                      />
+                      <label for="zaytun"> Qo'ziqorin </label>
+                    </li>
+                    <li class="check-item">
+                      <input value="Qazi" type="checkbox" class="checkboxs" />
+                      <label for="pomidor"> Qazi </label>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <h3 class="qoshimcha-title">Qo'shimchalar</h3>
+              <div class="qoshimcha">
+                <div class="qoshimcha-item">
+                  <label for="type">Achchiq</label>
+                  <input value="Achchiq" type="checkbox" />
+                </div>
+                <div class="qoshimcha-item">
+                  <label for="type">Sasiskali</label>
+                  <input value="Sasiskali" type="checkbox" />
+                </div>
+              </div>
+            </div>
+            <span class="line"></span>
+            <div class="hero-right">
+              <p class="p">Non:</p>
+              <div class="nons"></div>
+              <p class="p">Kattaligi:</p>
+              <div class="width"></div>
+              <p class="p d-flex">Ustida:</p>
+              <ul id="upper" class="p-0 nav-list"></ul>
+              <p class="p">Qo'shimcha:</p>
+              <div class="qosh"></div>
+              <button type="submit" class="btn p-3">
+                Buyurtma berish
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    
     <script src="./script.js"></script>
+    
   </body>
+  
+
+ 
 </html>
